@@ -18,9 +18,13 @@ public class Botte extends Probleme {
 				break;
 		case ACCIDENT : toString= "AS DU VOLANT";
 				break;
+		default : toString= "Il y a un problème.";
 		}
 
 		return toString;
 	}
+	
+
+	
 }
 		

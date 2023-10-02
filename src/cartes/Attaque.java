@@ -17,6 +17,7 @@ public class Attaque extends Bataille {
 				break;
 		case ACCIDENT : toString= "ACCIDENT";
 				break;
+		default : toString= "Il y a un problème.";
 		
 		}
 		return toString;

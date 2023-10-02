@@ -16,10 +16,22 @@ public class Parade extends Bataille {
 				break;
 		case ACCIDENT : toString= "REPARATION";
 				break;
+		default : toString= "Il y a un problème.";
 		
 		}
 		return toString;
 			
 		
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (!super.equals(obj))
+			return false;
+		if (!(obj instanceof Parade))
+			return false;
+		return true;
 	}
 }
